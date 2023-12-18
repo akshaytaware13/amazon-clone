@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  height: 80px;
+  color: white;
+  background-color: #124e47;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-logo {
+  width: 160px;
+  height: 60px;
+}
+.logo {
+  background-image: url("logo.jpg");
+  background-size: cover;
+  width: 100%;
+  /* height: 40px; */
+  display: inline-block;
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: 1px solid white;
+}
+
+.add-para-1 {
+  color: #cccccc;
+  font-size: 12px;
+  margin-left: 15px;
+  visibility: hidden;
+}
+.add-para-2 {
+  color: white;
+  font-size: 14px;
+  margin-left: 4px;
+  visibility: hidden;
+}
+.add-icon {
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+
+.nav-search {
+  display: flex;
+  width: 600px;
+  height: 40px;
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
+}
+.search_select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+.search_input {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+}
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #0f1111;
+}
+
+span {
+  font-size: 0.7rem;
+}
+.nav_sec {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.nav_cart i {
+  font-size: 30px;
+}
+.nav_cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* panel */
+
+.panel {
+  background-color: #195851;
+  height: 40px;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.panel_options {
+  width: 70%;
+  font-size: 0.85rem;
+}
+.panelAll {
+  padding: 0;
+  margin: 0;
+}
+.panel_options p {
+  display: inline;
+  margin-left: 10px;
+}
+.panel-deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* Second Section */
+.second_section {
+  background-image: url("bg-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+}
+
+.second_section_msg {
+  background-color: white;
+  color: black;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  width: 90%;
+  margin-top: 240px;
+}
+.second_section_msg a {
+  color: #007185;
+  text-decoration: none;
+  cursor: pointer;
+}
+.second_section_msg a:hover {
+  color: #febd68;
+}
+
+/* shopping Section */
+.shop_section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  flex-wrap: wrap;
+}
+.box {
+  height: 400px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0 15px;
+  margin-top: 20px;
+}
+.box_img {
+  height: 250px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box_content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.box_content p a {
+  color: #007185;
+  text-decoration: none;
+  cursor: pointer;
+}
+.box_content p a:hover {
+  color: #febd68;
+}
+
+/* footer */
+.footer_panel1 {
+  background-color: #37475a;
+  color: white;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+.footer_panel1 i {
+  padding-left: 9px;
+  font-size: 0.85rem;
+}
+
+.footer_panel2 {
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul li {
+  list-style-type: none;
+}
+ul p {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  color: #dddddd;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+ul a:hover {
+  color: #fff;
+}
+
+.footer_panel3 {
+  background-color: #232f3e;
+  color: white;
+  border-top: 1px solid grey;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  background-image: url("Amazon-Logo-White@zeevector.png");
+  background-size: cover;
+  width: 241px;
+  height: 60px;
+}
+
+.footer_panel4 {
+  background-color: #0f1111;
+  color: white;
+  height: 80px;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.pages {
+  padding-top: 25px;
+}
+.pages a {
+  color: white;
+  text-decoration: none;
+  margin-left: 13px;
+}
+.pages a:hover {
+  color: orange;
+}
+.copyright {
+  padding-top: 5px;
+}
